@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  margin-top: 25px;
+  font-family: var(--font1);
+  height: 74px;
+  /* background-color: #fb0000; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+.nav-left {
+  font-size: 35px;
+  display: flex;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 60px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.nav-left ul li {
+  list-style: none;
+  margin-left: 2vw;
+  font-family: var(--font2);
+  font-size: 17px;
+}
+.nav-left ul li a {
+  /* display: inline-block; */
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+
+}
+.nav-left ul li a:hover {
+  color: var(--main-hover);
+  box-shadow: 2px 4px 6px #332e2e1a;
+}
+
+.form-input {
+  padding: 0px 5px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0 14px;
+  font-family: var(--font1);
+}
+
+.content {
+  height: 395px;
+  /* background-color: #dedeed; */
+  display: flex;
+  margin-top: 32px;
+}
+.content-left {
+  font-family: var(--font1);
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-right {
+  /* width: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-right img {
+  border: 2px solid black;
+  width: 355px;
+  height: 355px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #000000;
+  /* transition: transform 0.3s ease-in-out; */
+  box-shadow: 1px 3px 7px rgba(24, 23, 23, 0.1);
+}
+.home-articles {
+  /* height: 455px; */
+  /* background: #d5a1a1; */
+  padding-top: 12px;
+}
+.home-article{
+  display: flex;
+  margin: 25px;
+}
+.home-article-img img{
+  width: 300px;
+}
+.home-article-content{
+  align-self: center;
+  padding:25px;
+}
+.footer {
+  /* height: 50px; */
+  background-color: var(--bg-main) !important; 
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #fbfbfb !important;
+  padding-top: 10px;
+  margin-top: 10px !important;
+  width: 100%;
+  
+}
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: var(--main-hover); /* Twitter blue color */
+}

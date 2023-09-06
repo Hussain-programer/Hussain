@@ -1,0 +1,274 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.smartwatchx {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 48px;
+  background-image: linear-gradient(
+    to right,
+    #aac0ce,
+    #a9a9a9,
+    #899196
+  ); /* Dark silver to gray to light silver gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* 0987554123456789 */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  /* padding: 50px; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px; /* Adjust the size of the logo as needed */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  margin-right: 15px;
+}
+
+.nav-links a:hover {
+  color: #f1c40f; /* Change the color on hover as needed */
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+/* 12345678901234567890 */
+header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* .cta-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #ff9900;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+} */
+/* 09987654 */
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #fdb813, #f77700);
+  background-size: 200% auto;
+  transition: background-position 0.5s;
+  border-radius: 50px;
+}
+.button:hover {
+  background-position: right center;
+}
+.button:active {
+  background-image: linear-gradient(to right, #555, #999);
+}
+.button:focus {
+  outline: none;
+}
+/* 097543 */
+.features {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.feature {
+  margin-bottom: 30px;
+}
+
+.feature img {
+  /* max-width: 100%; */
+  width: 150px;
+}
+.feature img:active {
+  /* max-width: 100%; */
+  width: 550px;
+  background-color: #f77700;
+}
+
+.testimonials {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.testimonial img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.pricing {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.pricing h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.price-option {
+  display: inline-block;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.price-option h3 {
+  font-size: 24px;
+}
+
+.price-option p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.price-option ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.price-option li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo img {
+  width: 80px; /* Adjust the size of the logo as needed */
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: -15px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}

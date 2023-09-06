@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/Fwt.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="WebTech Solutions.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="path/to/smooth-scroll.polyfills.min.js"></script> -->
+    <!-- <script src="../JAVASCRIPT/w-website.js"></script> -->
+    <title>WebTech Solutions</title>
+  </head>
+  <body>
+    <!-------------------------------------- Navigation bar -------------------------------------->
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./img/Fwt.jpg" alt="logo" srcset=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Language
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Urdu</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Hindi</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another Language</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Servieces</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Our team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#price">Price plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" onsubmit="return searchItem()">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-------------------------------------- slider -------------------------------------->
+    <div id="slider">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/Business1.jpg" class="d-block w-100" alt="" />
+            <div class="carousel-caption">
+              <h5>How to make a website</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Business2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption">
+              <h5>Create responsive website</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Business3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption">
+              <h5>Business website design</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-------------------------------------- About -------------------------------------->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>About Us</h2>
+            <div class="about-content">
+              The primary objective of a business website is to attract, engage,
+              and convert visitors into loyal customers. Through intuitive
+              navigation and user-friendly interfaces, a business website
+              ensures that visitors can easily find the information they seek.
+              It often includes features such as contact forms, live chat
+              support, and calls to action, encouraging visitors to interact and
+              initiate meaningful business relationships.
+            </div>
+            <button type="button" class="btn btn-primary">
+              <a href="#"> Read more>></a>
+            </button>
+          </div>
+          <div class="col-md-6 skills-bar">
+            <p>HTML</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+            <p>CSS</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%">70%</div>
+            </div>
+            <p>JAVASCRIPT</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 40%">40%</div>
+            </div>
+            <p>C/C++</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 30%">30%</div>
+            </div>
+            <p>PYTHON</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 20%">20%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------ Servieces ------------------------------------>
+    <section id="services">
+      <div class="container">
+        <h1>Our Servieces</h1>
+        <div class="row services">
+          <div class="col-md-3 text-center">
+            <div class="icon">
+              <i class="fa-solid fa-desktop"></i>
+            </div>
+            <h3>Web Development</h3>
+            <p>
+              Responsive web design ensures that websites adapt to different
+              screen sizes and devices, providing an optimal viewing experience
+              on desktops, tablets, and smartphones.
+            </p>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3>Front End Developer</h3>
+            <p>
+              Front-end development focuses on the visual and interactive
+              aspects of a website that users directly interact with. It
+              involves using technologies like HTML, CSS, and JavaScript to
+              create the layout, design, and functionality of the user
+              interface.
+            </p>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3>Back-End Development</h3>
+            <p>
+              Back-end development refers to the process of creating and
+              managing the server-side components of a website or web
+              application responsible for data storage, processing, and business
+              logic.
+            </p>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="icon">
+              <i class="fa-solid fa-fingerprint"></i>
+            </div>
+            <h3>Security</h3>
+            <p>
+              Web developers need to be conscious of security issues to protect
+              user data and prevent hacking attempts. This involves measures
+              like using HTTPS, input validation, and protecting against common
+              web vulnerabilities like SQL injection and Cross-Site Scripting
+              (XSS).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------ Team ------------------------------------>
+    <section id="team">
+      <div class="container">
+        <h1>Our Team</h1>
+        <div class="row">
+          <div class="col-md-3 profile-pic text-center">
+            <div class="img-box">
+              <img src="./img/team1.webp" alt="" class="img-responsive" />
+              <ul>
+                <a href="#">
+                  <li><i class="fa-brands fa-facebook"></i></li>
+                  <li><i class="fa-brands fa-twitter"></i></li>
+                  <li><i class="fa-brands fa-linkedin"></i></li>
+                  <li><i class="fa-brands fa-instagram"></i></li>
+                </a>
+              </ul>
+            </div>
+            <h2>Ethan</h2>
+            <h3>Founder / CEO</h3>
+            A founder is an individual or group of individuals who establish a
+            new business, organization, or venture.The CEO is the
+            highest-ranking executive in a company or organization.
+          </div>
+          <div class="col-md-3 profile-pic text-center">
+            <div class="img-box">
+              <img src="./img/team2.webp" alt="" class="img-responsive" />
+              <ul>
+                <a href="#">
+                  <li><i class="fa-brands fa-facebook"></i></li>
+                  <li><i class="fa-brands fa-twitter"></i></li>
+                  <li><i class="fa-brands fa-linkedin"></i></li>
+                  <li><i class="fa-brands fa-instagram"></i></li>
+                </a>
+              </ul>
+            </div>
+            <h2>Harsh</h2>
+            <h3>CFO</h3>
+            One of the primary responsibilities of a CFO is to develop and
+            execute the financial strategy of the company. This involves
+            analyzing financial data, making financial forecasts, and
+            formulating plans to achieve the company's financial goals.
+          </div>
+          <div class="col-md-3 profile-pic text-center">
+            <div class="img-box">
+              <img src="./img/team5.jpg" alt="" class="img-responsive" />
+              <ul>
+                <a href="#">
+                  <li><i class="fa-brands fa-facebook"></i></li>
+                  <li><i class="fa-brands fa-twitter"></i></li>
+                  <li><i class="fa-brands fa-linkedin"></i></li>
+                  <li><i class="fa-brands fa-instagram"></i></li>
+                </a>
+              </ul>
+            </div>
+            <h2>Elizabeth</h2>
+            <h3>COO</h3>
+            The COO oversees daily operations and ensures effective implementation of business goals and strategies. They report to the CEO and are a key member of the executive team.
+          </div>
+          <div class="col-md-3 profile-pic text-center">
+            <div class="img-box">
+              <img src="./img/team4.jpg" alt="" class="img-responsive" />
+              <ul>
+                <a href="#">
+                  <li><i class="fa-brands fa-facebook"></i></li>
+                  <li><i class="fa-brands fa-twitter"></i></li>
+                  <li><i class="fa-brands fa-linkedin"></i></li>
+                  <li><i class="fa-brands fa-instagram"></i></li>
+                </a>
+              </ul>
+            </div>
+            <h2>Harry</h2>
+            <h3>CTO</h3>
+            A Chief Technology Officer (CTO) is a senior executive responsible
+            for overseeing an organization's technology strategy, vision, and
+            execution. Their primary focus is to align technology initiatives
+            with the company's overall business goals and objectives.
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------ promo ------------------------------------>
+    <section id="promo">
+      <div class="container">
+        <p>Get Free Domain Name and Web Hosting</p>
+        <a href="#contact" class="btn btn-primary">Contact us</a>
+      </div>
+    </section>
+    <!------------------------------------ Price Plans ------------------------------------>
+    <section id="price">
+      <div class="container">
+        <h1>Price Plans</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="single-price">
+              <div class="price-head">
+                <h2>Free</h2>
+                <p>$0 / <span>month</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa-solid fa-circle-check"></i>5GB Space</li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>10GB Bandwidth
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-xmark"></i>15 Email Account
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-xmark"></i>Unlimited Domain
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-xmark"></i>Unlimited Support
+                  </li>
+                </ul>
+              </div>
+              <div class="price-button">
+                <a href="#" class="buy-btn btn-primary">Join Free</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-price">
+              <div class="price-head">
+                <h2>Start up</h2>
+                <p>$10 / <span>month</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa-solid fa-circle-check"></i>10GB Space</li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>100GB Bandwidth
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>15 Email Account
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-xmark"></i>Unlimited Domain
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-xmark"></i>Unlimited Support
+                  </li>
+                </ul>
+              </div>
+              <div class="price-button">
+                <a href="#" class="buy-btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-price">
+              <div class="price-head">
+                <h2>Business</h2>
+                <p>$50 / <span>month</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa-solid fa-circle-check"></i>20GB Space</li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>200GB Bandwidth
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>50 Email Account
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>Unlimited Domain
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-xmark"></i>Unlimited Support
+                  </li>
+                </ul>
+              </div>
+              <div class="price-button">
+                <a href="#" class="buy-btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-price">
+              <div class="price-head">
+                <h2>Advanced</h2>
+                <p>$100 / <span>month</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa-solid fa-circle-check"></i>50GB Space</li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>Unlimited Bandwidth
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>Unlimited Email
+                    Account
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>Unlimited Domain
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>Unlimited Support
+                  </li>
+                </ul>
+              </div>
+              <div class="price-button">
+                <a href="#" class="buy-btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------ Testimonials ------------------------------------>
+    <section id="testimonials">
+      <div class="container">
+        <h1>Testimonials</h1>
+        <p class="text-center">
+          Testimonials carry significant weight as endorsements that speak volumes about the positive impact and reliability of a product, service, or experience. They offer valuable insights and reassurance to potential customers, thereby enhancing their trust and confidence in the offering.
+        </p>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="profile">
+              <img src="./img/user1.webp" alt="" class="user" />
+              <blockquote>
+                The user is a curious and creative person, constantly seeking knowledge and actively participating in meaningful interactions with a spirit of curiosity.
+              </blockquote>
+              <h3>Amelia Williams <span>Co-Founder of XYZ</span></h3>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="profile">
+              <img src="./img/user2.webp" alt="" class="user" />
+              <blockquote>
+                The user is a curious and creative person, constantly seeking knowledge and actively participating in meaningful interactions with a spirit of curiosity.
+              </blockquote>
+              <h3>Olivia Anderson <span>Co-Founder of XYZ</span></h3>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="profile">
+              <img src="./img/user3.webp" alt="" class="user" />
+              <blockquote>
+                The user is a curious and creative person, constantly seeking knowledge and actively participating in meaningful interactions with a spirit of curiosity.
+              </blockquote>
+              <h3>Alexander John <span> Co-Founder of XYZ</span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------ Get in touch ------------------------------------>
+    <section id="contact">
+      <div class="container">
+        <h1>Get in Touch</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="container">
+              <h2>Contact Us</h2>
+              <form action="#" method="post">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject:</label>
+                  <input type="text" id="subject" name="subject" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <a href="#slider" class="btn btn-primary">Submit</a>
+                  <!-- <button type="submit">Submit</button> -->
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-md-6 contact-info">
+            <div class="follow">
+              <b>Address : </b><i class="fa-solid fa-location-dot"></i> XYZ
+              Road,Bhimber,AJK
+            </div>
+            <div class="follow">
+              <b>Phone : </b><i class="fa-solid fa-phone"></i>+92-312345678
+            </div>
+            <div class="follow">
+              <b>Email : </b
+              ><i class="fa-solid fa-envelope"></i> example@website.com
+            </div>
+            <div class="follow">
+              <label><b>Get Social : </b></label>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------ Footer ------------------------------------>
+    <section id="footer">
+      <div class="container text-center">
+        <p>
+          Made With
+          <i class="fa-solid fa-heart" style="color: #f00505; margin: 3px"></i>
+          by Bootsrtap
+        </p>
+      </div>
+
+      <footer>
+        <div class="footer-content">
+          <div class="footer-logo">
+            <!-- Insert your logo image or text here -->
+            <a class="navbar-brand" href="#"
+              ><img src="./img/Fwt.jpg" alt="logo" srcset=""
+            /></a>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Our Team</a></li>
+              <li><a href="#price">Price Plans</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#contact">Contact us</a></li>
+              <li><a href="#privacy">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <!-- Add your social media icons or links here -->
+            <a href="#" class="social-icon"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="social-icon"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="#" class="social-icon"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="#" class="social-icon"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://github.com/Hussain-programer" class="social-icon"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Your Business. All rights reserved.</p>
+        </div>
+      </footer>
+    </section>
+    <!-- <script src="https://github.com/cferdinandi/smooth-scroll.git"></script> -->
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+  </body>
+</html>

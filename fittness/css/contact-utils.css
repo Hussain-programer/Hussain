@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Baloo+Bhaina+2:wght@600&display=swap");
+:root {
+  --font1: "Baloo Bhaina 2", cursive;
+  --font2: "Roboto", sans-serif;
+  --bg-main: #5a3e3e;
+  --main-hover: goldenrod;
+}
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
+.max-width-1 {
+  max-width: 80vw;
+}
+.max-width-2 {
+  max-width: 60vw;
+}
+.m-auto {
+  margin: auto;
+}
+.btn {
+  padding: 0px 20px !important;
+  border: 2px solid black !important;
+  border-radius: 10px !important;
+  font-family: var(--font1) !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  /* transition: background-color 0.3x ease;
+  transform:0.3s ease ; */
+  transition: background-color 0.3s ease, transform 0.3s ease !important;
+  padding-top: 3px !important;
+}
+.btn:hover {
+  background-color:goldenrod !important;
+  transform: scale(1.05) !important;
+}
+.style-none {
+  text-decoration: none;
+}
+.hover {
+  transition: color 0.5s ease-in-out;
+}
+.hover:hover {
+  color: var(--main-hover);
+}
+.pad{
+  padding-bottom: 20px;
+}
