@@ -42,7 +42,7 @@ ScrollReveal({
  ScrollReveal().reveal('.home-contant , .heading', { origin: 'top' });
  ScrollReveal().reveal('.home-img ,  .services-container , .portfolio-box ,  .contact form', { origin: 'bottom' });
  ScrollReveal().reveal('.home-contant h1 , .about-img', { origin: 'left' });
- ScrollReveal().reveal('.home-contant p , .about-content', { origin: 'right' });
+ // ScrollReveal().reveal('.home-contant p , .about-content', { origin: 'right' });
  //  typed js
  var typed = new Typed('.multiple-text', {
   strings: ["Student",  "Frontend Developer",],
