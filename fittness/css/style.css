@@ -35,13 +35,13 @@
     color: var(--main-hover);
     box-shadow: 2px 4px 6px #332e2e1a;
   }
-.topleft{
+/* .topleft{
     width: 50%;
-}
+} */
 
-.topright{ 
+/* .topright{ 
     width: 50%;
-}
+} */
 
 .section1{
    max-height: 100vh; 
