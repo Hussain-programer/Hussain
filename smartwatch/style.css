@@ -64,11 +64,7 @@ header {
   color: #f1c40f; /* Change the color on hover as needed */
 }
 
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
+
 
 .line {
   width: 25px;
@@ -79,12 +75,14 @@ header {
 
 @media screen and (max-width: 768px) {
   .nav-links {
-    display: none;
-    flex-direction: column;
+    /* display: none; */
+    /* flex-direction: column; */
     align-items: center;
     width: 100%;
   }
-
+.navbar .logo img{
+  padding: 10px;
+}
   .nav-links li {
     margin: 10px 0;
   }
@@ -244,10 +242,12 @@ footer {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
 }
 
 .footer-links li {
-  display: inline-block;
+  flex-direction: row;
+  /* display: inline-block; */
   margin-right: 20px;
 }
 
