@@ -85,3 +85,46 @@ body {
 .genbtn:hover {
   box-shadow: none;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 16px;
+  }
+
+  .inputBox {
+    width: 100%;
+  }
+
+  .passbox {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row p,
+  .row label {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .row input[type="checkbox"] {
+    width: auto;
+    height: auto;
+  }
+
+  .genbtn {
+    width: 100%;
+    max-width: 200px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+  }
+}
