@@ -45,7 +45,7 @@ ScrollReveal({
  // ScrollReveal().reveal('.home-contant p , .about-content', { origin: 'right' });
  //  typed js
  var typed = new Typed('.multiple-text', {
-  strings: ["Student",  "Frontend Developer",],
+  strings: ["Student",  "Frontend Developer","Python Developer","Web Developer","Data Analytics"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
